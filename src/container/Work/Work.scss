@@ -128,6 +128,9 @@
       color: var(--white-color);
     }
   }
+   @media (hover: none) and (pointer: coarse) {
+    opacity: 1; // mobilde daima görünür
+  }
 }
 
 .app__work-content {
